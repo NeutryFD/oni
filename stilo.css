@@ -1,0 +1,30 @@
+@keyframes anim{
+    0%{background-color: white}
+    50%{background-color: black}
+    100% {background-color: white;}
+}
+@keyframes anim2{
+    0%{color: black}
+    50%{color: white}
+    100% {color: black;}
+}
+body {
+    text-align: center;
+  animation-name: anim;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+h1 {
+    animation-name:anim2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    text-align: center;
+    padding-top: 10%;
+    font-family: Arial, fantasy;
+    font-size: 800%}
+
+.ino{ width: 10%;
+        height: 10%;
+}
+.name_ino{text-align: center;}
